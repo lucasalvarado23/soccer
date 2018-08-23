@@ -1,0 +1,46 @@
+
+#drag-1 {
+  width: 2%;
+  height: 1%;
+  min-height: 6.5em;
+  margin: 10%;
+  background-image: url("img/goalie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.75em;
+  padding: 4%;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+ #drag-2, #drag-3, #drag-4, #drag-5  {
+  width: 2%;
+  height: 1%;
+  min-height: 6.5em;
+  margin: 10%;
+  border-radius: 0.75em;
+  background-image: url("img/player.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4%;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+
+ }
+
+#drag-me::before {
+  content: "#" attr(id);
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://previews.123rf.com/images/grzym/grzym1108/grzym110800006/10287530-top-view-on-the-football-field.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbotron{
+  background-image: url("img/pelota.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

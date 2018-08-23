@@ -1,0 +1,13 @@
+#jumbotron{
+  background-image: url("img/jugando.jpg");
+  background-size: cover;
+}
+h1 {
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.img-thumbnail {
+	align-content: center;
+}
