@@ -9,6 +9,12 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="style2.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
 
     <title>Soccer white board</title>
 
@@ -23,28 +29,25 @@
 
   <body>
 
-    <header>
-      <!--Jumbotron-->
+    <!--Jumbotron-->
 <div class="jumbotron text-center">
 
-    <!--Title-->
-    <h4 class="card-title font-bold pb-2"><strong>Football whiteboard</strong></h4>
-
-    <!--Card image-->
-    <div class="view overlay my-4">
-        <img src="img/tactics.jpg" class="img-fluid" alt="">
-        <a href="#">
-            <div class="mask rgba-white-slight"></div>
-        </a>
+        <!--Title-->
+        <h4 class="card-title font-bold pb-2"><strong>Football whiteboard</strong></h4>
+    
+        <!--Card image-->
+        <div class="view overlay my-4">
+            <img src="img/top3.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+    
+        <h5 class="font-bold mb-4" id="description">Easiest way to show your players where you want them to move.</h5>
+    
+    
     </div>
-
-    <p class="card-text">Easiest and fastest way to show your players where you want them to move.
-    </p>
-
-</div>
-<!--Jumbotron-->
-
-      </section>
+    <!--Jumbotron-->
 <!-- Card deck -->
 <div class="card-deck">
 
@@ -52,8 +55,8 @@
   <div class="card mb-4">
 
     <!--Card image-->
-    <div class="view overlay">
-      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGLnJday0xDhKRyWWDQ8ttmg8PtxyTYrBXuRL_q0SldrXRK7fo" alt="Card image cap">
+    <div  class="img-fluid" alt="Responsive image">
+      <img class="card-img-top" src="img/5vs5.jpg" alt="Card image cap">
       <a href="5.html">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -63,14 +66,13 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">5 players white board</h4>
+      <h4 class="card-title">5 players</h4>
       <!--Text-->
-      <p class="card-text">Pick to show either just your team or both.</p>
+      <p class="card-text">Pick either just your team or 5 vs 5.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <a href="5.html" type="button" class="btn btn-light-blue btn-md" class="button">Just 5</button>
-              <a href="5v5.html" type="button" class="btn btn-light-blue btn-md">5 vs 5</button>
-
-
+      <a href="5.html" button type="button" class="btn btn-primary">One team</a>
+      <a href="5v5.html" button type="button" class="btn btn-primary" id="vs">Two teams</a>
+      
 
     </div>
 
@@ -82,7 +84,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+      <img class="card-img-top" src="img/zapa.jpg" alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -92,9 +94,9 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Card title</h4>
+      <h4 class="card-title">7 Players</h4>
       <!--Text-->
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">Pick either just your team or 7 vs 7.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
       <button type="button" class="btn btn-light-blue btn-md">Read more</button>
 
@@ -108,7 +110,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+      <img class="card-img-top" src="img/pelota.jpg" alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
@@ -118,9 +120,9 @@
     <div class="card-body">
 
       <!--Title-->
-      <h4 class="card-title">Card title</h4>
+      <h4 class="card-title">11 Players</h4>
       <!--Text-->
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">Pick either just your team or 11 vs 11</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
       <button type="button" class="btn btn-light-blue btn-md">Read more</button>
 
@@ -131,18 +133,173 @@
 
 </div>
 <!-- Card deck -->
-      
     </main>
+</section>
+<!-- Section: Features v.3 -->
+<section class="my-5">
 
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
-    </footer>
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Why is it so great?</h2>
+        <!-- Section description -->
+        <p class="lead grey-text text-center w-responsive mx-auto mb-5">Football whiteboard was tested by many coaches in different ages and categories.</p>
+      
+        <!-- Grid row -->
+        <div class="row">
+      
+          <!-- Grid column -->
+          <div class="col-lg-5 text-center text-lg-left">
+            <img  class="img-fluid" src="https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Sample image">
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-7">
+      
+            <!-- Grid row -->
+            <div class="row mb-3">
+      
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Free</h5>
+                <p class="grey-text">Completly free to use and enjoy</p>
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row -->
+      
+            <!-- Grid row -->
+            <div class="row mb-3">
+      
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">Download</h5>
+                <p class="grey-text"> No download necessary. Just open your favorite browser, pick the number of players you need displayed and there you go.</p>
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row -->
+      
+            <!--Grid row-->
+            <div class="row">
+      
+              <!-- Grid column -->
+              <div class="col-1">
+                <i class="fa fa-mail-forward fa-lg indigo-text"></i>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-xl-10 col-md-11 col-10">
+                <h5 class="font-weight-bold mb-3">User friendly</h5>
+                <p class="grey-text mb-0">Very easy to use and straight forward so that you can spend time coaching and not figuring things out.</p>
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!--Grid row-->
+      
+          </div>
+          <!--Grid column-->
+      
+        </div>
+        <!-- Grid row -->
+      
+      </section>
+      <!-- Section: Features v.3 -->
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+    
+          <!-- Footer links -->
+          <div class="row text-center text-md-left mt-3 pb-3">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Football whiteboard</h6>
+              <p>Easiest way to show your players where you want them to move.</p>
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="w-100 clearfix d-md-none">
+    
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Our sponsors</h6>
+              <p>
+                <a href="https://migueltransportacion.com/" class="fa fa-automobile"> Miguel Transportacion</a>
+              </p>
+              <p>
+                <a href="http://305designs.com/" class="fa fa-image"> 305 designs</a>
+              </p>
+            </div>
+    
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p>
+                <i class="fa fa-home mr-3"></i> Miami Beach Fl, US</p>
+              <p>
+                <i class="fa fa-envelope mr-3"></i> lucasalvarado23@gmail.com</p>
+              <p>
+                <i class="fa fa-phone mr-3"></i> 786-285-6476</p>
+            </div>
+            <!-- Grid column -->
+    
+          </div>
+          <!-- Footer links -->
+    
+          <hr>
+    
+          <!-- Grid row -->
+          <div class="row d-flex align-items-center">
+    
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8">
+    
+              <!--Copyright-->
+              <p class="text-center text-md-left">© 2018 Copyright:
+                <a href="https://lucasportfolio.com">
+                  <strong> Lucas Alvarado</strong>
+                </a>
+              </p>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0">
+    
+    
+          </div>
+          <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+      </footer>
+      <!-- Footer -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -155,5 +312,13 @@
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
   </body>
 </html>
