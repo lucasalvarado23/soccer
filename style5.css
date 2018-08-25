@@ -1,0 +1,31 @@
+#drag-1 {
+    width: 1%;
+    height: 0.5%;
+    min-height: -0.5em;
+      margin: 7%;
+    background-image: url("img/goalie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.75em;
+    padding: 4%;
+  
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+   #drag-2, #drag-3, #drag-4, #drag-5, #drag-6, #drag-7, #drag-8, #drag-9, #drag-10, #drag-11{
+    width: 1%;
+    height: 0.5%;
+    min-height: -0.5em;
+      margin: 7%;
+    border-radius: 0.75em;
+    background-image: url("img/player.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4%;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+   }
+   body {
+    background-image: url("https://previews.123rf.com/images/grzym/grzym1108/grzym110800006/10287530-top-view-on-the-football-field.jpg");
+    background-size: cover;
+  }
